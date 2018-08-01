@@ -5,5 +5,5 @@ def position_taken?(board, index)
 end
 
 def valid_move?(board, index)
-board[index].between?(0,8) && !board[index] == position_taken 
+board[index].between?(0,8) && !board[index] == position_taken
 end
